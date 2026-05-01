@@ -4,7 +4,7 @@ The journey to become a self taught Network + Cloud Engineer
 # The Journey - May 1st, 2025
 - This is will become my public journey of showcasing my experiences and projects that will hopefully help me chase my goals and dreams.
 - I will be using Claude to help guide and teach me what I need to gain skills needed to become a valuable Network & Cloud Engineer and I would like to share my journey with everyone that comes across this repo.
-- As much as I would like to use AI to help me document everything out and make it look pretty, everything you see will be raw written from my thoughts and findings. It will not be perfect, I may document some things in here that you may think "WTF he has no idead what he is talking about", and you probably may be right, but it is what it is and I will learn!
+- As much as I would like to use AI to help me document everything out and make it look pretty, everything you see will be raw written from my thoughts and findings. It will not be perfect, I may document some things in here that you may think "WTF he has no idea what he is talking about", and you might be right, but it is what it is and I will learn!
 - I am not entirley sure how GitHub works in terms of sharing but if you see this and either find this intereting and you can learn from it? Great! If you see this and think I have no idea what I am doing and could provide some guidance? Please, I encourage you to reach out and who knows, we can create some incredible things together!
 
 ## The Goal
