@@ -1,7 +1,7 @@
 # network-cloud-engineering-manifestation
 The journey to become a self taught Network + Cloud Engineer
 
-# The Journey - May 1st, 2025
+# The Journey - May 1st, 2026
 - This is will become my public journey of showcasing my experiences and projects that will hopefully help me chase my goals and dreams.
 - I will be using Claude to help guide and teach me what I need to gain skills needed to become a valuable Network & Cloud Engineer and I would like to share my journey with everyone that comes across this repo.
 - As much as I would like to use AI to help me document everything out and make it look pretty, everything you see will be raw written from my thoughts and findings. It will not be perfect, I may document some things in here that you may think "WTF he has no idea what he is talking about", and you might be right, but it is what it is and I will learn!
