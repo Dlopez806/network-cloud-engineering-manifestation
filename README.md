@@ -9,7 +9,7 @@ The journey to become a self taught Network + Cloud Engineer
 
 ## The Goal
 - My goal is to teach myself all about the cloud and create a career out of this.
-- I live in Austin, Texas and my ultimate goal and dream is to make a career at a FAANG. It is a stretch, considering I have little expiernece with the Cloud and my plan is to try and do that within a year.... Yes I may be dillusional a bit but I am going to grind my ass off and would like to help others a long the way that share similar intrests!
+- I live in Austin, Texas and my ultimate goal and dream is to make a career at a FAANG compan. It is a stretch, considering I have little experience with the Cloud and my plan is to try and do that within a year.... Yes I may be dillusional a bit but I am going to grind my ass off and would like to help others a long the way that share similar intrests!
 
 ## What I am Building (According to Claude)
 - VPC design and subnetting labs
