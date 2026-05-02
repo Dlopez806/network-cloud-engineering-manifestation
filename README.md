@@ -11,7 +11,7 @@ I am not too famliair with Github at the moment but if you see this and either f
 - My goal is to teach myself all about the cloud and create a career out of this.
 - I live in Austin, Texas and my ultimate goal and dream is to make a career at a FAANG company. It is a stretch, considering I have little experience with the Cloud and my plan is to try and do that within a year.... Am I being  delusional, absolutely, but I am going to grind my ass off and would like to help others a long the way that share similar intrests!
 
-## What I am Building (According to Claude)
+## What I am Building
 - VPC design and subnetting labs
 - Network automation with Python
 - AWS cloud networking (VPCs, Transit Gateway, VPN, Route 53)
