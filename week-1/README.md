@@ -25,7 +25,11 @@ One thing that really clicked for me this week was understanding jumps and how t
 Here's how I think about Subnetting now:
 The highest jump you'll ever see in an octect is 128. That's your anchor.... Here is what I mean by that.
 
-Each octet has 8 bits. Octet 1 ranges includes CIDRs from /0 to /8, Octet 2 ranges are /9 to /16, Octet 3 ranges from /17 to /24 and 4th octet ranges from /25 to /32.
+Each octet has 8 bits.
+- Octet 1 ranges includes CIDRs from /0 to /8
+- Octet 2 ranges are /9 to /16
+- Octet 3 ranges from /17 to /24
+- 4th octet ranges from /25 to /32.
 
 So lets say you have a CIDR of /13 - We know that CIDR falls into Octet 2 and is 3 away or 3 bits away from /16 AKA the end of the Octet 2. 
 To calculate the jump: 
