@@ -28,7 +28,8 @@ The highest jump you'll ever see in an octect is 128. That's your anchor.... Her
 Each octet has 8 bits. Octet 1 ranges includes CIDRs from /0 to /8, Octet 2 ranges are /9 to /16, Octet 3 ranges from /17 to /24 and 4th octet ranges from /25 to /32.
 
 So lets say you have a CIDR of /13 - We know that CIDR falls into Octet 2 and is 3 away or 3 bits away from /16 AKA the end of the Octet 2. 
-To calculate the jump: 2 to the power of 3 = 8. That subnet jumps by 8 in the 2nd octet.
+To calculate the jump: 
+- 2 to the power of 3 = 8. That subnet jumps by 8 in the 2nd octet.
 
 In other words..... in this example we have an IP: (10.0.0.0 /13) - we know /13 falls in octet #2, this octet is where the network IP will begin to change with jumps/multiples of 8.
 - Network 1 IP Range: 10.0.0.0 - 10.7.255.255 /13
