@@ -82,5 +82,5 @@ If you made it this far and want to see the actual work behind everything writte
 ### VPC Designs
 ![VPC Design 1](images/vpc-design-1.png)
 ![VPC Design 2](images/vpc-design-1.2.png)
-![VPC Design 3](images/vpc-design-3.png)
-![VPC Design 4](images/vpc-design-4.png)
+![VPC Design 3](images/vpc-design-2.png)
+![VPC Design 4](images/vpc-design-3.png)
