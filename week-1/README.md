@@ -29,20 +29,22 @@ Each octet has 8 bits.
 - Octet 1 ranges includes CIDRs from /0 to /8
 - Octet 2 ranges are /9 to /16
 - Octet 3 ranges from /17 to /24
-- 4th octet ranges from /25 to /32.
+- Octet 4 ranges from /25 to /32
 
 So lets say you have a CIDR of /13 - We know that CIDR falls into Octet 2 and is 3 away or 3 bits away from /16 AKA the end of the Octet 2. 
 To calculate the jump: 
 - 2 to the power of 3 = 8. That subnet jumps by 8 in the 2nd octet.
 
-In other words..... in this example we have an IP: (10.0.0.0 /13) - we know /13 falls in octet #2, this octet is where the network IP will begin to change with jumps/multiples of 8.
+In other words..... In this example we have an IP: 10.0.0.0 /13 
+- We know /13 falls in octet 2, so octet 2 is where the network IP will begin to change with jumps/multiples of 8.
+  
 - Network 1 IP Range: 10.0.0.0 - 10.7.255.255 /13
 - Network 2 IP Range: 10.8.0.0- 10.15.255.255 /13
-Notice how the second octect jumps by multiples of 8 when starting a new range of IPs in that subnet? It is no different if we have a subnet that has a CIDR of /20. 
+- Notice how the second octect jumps by multiples of 8 when starting a new range of IPs in that subnet? It is no different if we have a subnet that has a CIDR of /20. 
 
 /20 CIDR falls into the 3rd octect so we know that is where the change of IPs is going to happen.
-Example: We have 192.168.0.0 /20 ----- We know that '/24' is the end of the third octect, how far is /20 from /24?? Now that we know we have 4 or 4 bits, use the power of 2^4 to get your jump/multiple.
-2^4 = 16..... so the third octet jumps by 16.
+- Example: We have 192.168.0.0 /20 ----- We know that '/24' is the end of the third octet, sooo how far is /20 from /24?? Now that we know we have 4 or 4 bits. Use the power of 2^4 to get your jump/multiple.
+- 2^4 = 16..... so the third octet jumps by 16.
 
 - Network 1 IP Range: 192.168.0.0 - 192.168.15.255 /24
 - Network 2 IP Range: 192.168.16.0 - 192.168.31.255 /24
@@ -50,10 +52,7 @@ Example: We have 192.168.0.0 /20 ----- We know that '/24' is the end of the thir
 
 Once I understood that, subnet math stopped feeling like memorization and started feeling like logic. I can now work out jump sizes in my head without a calculator.
 
-This week was also partly a refresh since I already have my 
-Network+ certification. But subnetting is something I always 
-struggled to fully apply in real scenarios. This week I feel 
-like I finally own it.
+This week was also partly a refresh in networking and getting the basics back up to speed from what I already know and been exposed to, but subnetting is something I have always had a hard time grasping when applying it to real scenarios. Now I feel like I finally own it.
 
 The next step is taking everything I drilled this week and 
 applying it in AWS. That starts Week 2.
@@ -85,7 +84,9 @@ Week 1 Complete. Week 2 is set to cover 'Routing: How Packets Actually Move", wi
 If you made it this far and want to see the actual work behind everything written above, screenshots are below. 
 
 ### VPC Designs
+- Custom interaction dashboard built by Claude to help practice
 ![VPC Design 1](images/vpc-design-1.png)
 ![VPC Design 2](images/vpc-design-1.2.png)
+- Back to the basics with pencil & paper!
 ![VPC Design 3](images/vpc-design-2.png)
 ![VPC Design 4](images/vpc-design-3.png)
