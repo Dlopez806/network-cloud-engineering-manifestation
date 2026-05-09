@@ -42,7 +42,7 @@ In other words..... In this example we have an IP: 10.0.0.0 /13
 - Network 2 IP Range: 10.8.0.0- 10.15.255.255 /13
 - Notice how the second octect jumps by multiples of 8 when starting a new range of IPs in that subnet? It is no different if we have a subnet that has a CIDR of /20. 
 
-/20 CIDR falls into the 3rd octect so we know that is where the change of IPs is going to happen.
+/20 CIDR falls into the 3rd octect, which means this is where the change of IPs is going to happen.
 - Example: We have 192.168.0.0 /20 ----- We know that '/24' is the end of the third octet, sooo how far is /20 from /24?? Now that we know we have 4 or 4 bits. Use the power of 2^4 to get your jump/multiple.
 - 2^4 = 16..... so the third octet jumps by 16.
 
