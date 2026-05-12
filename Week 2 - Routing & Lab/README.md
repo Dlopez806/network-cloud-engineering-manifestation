@@ -42,7 +42,7 @@ Each router got a loopback interface as its identifier. I
 configured OSPF on all 3 routers and told them which networks 
 to advertise. Then I just watched routes propagate.
 
-<img src="images/gns-r1-ospf.png" alt="VPC Design 1" width="40%"> <img src="images/gns-r2-ospf.png" alt="VPC Design 1" width="40%"> <img src="images/gns-r3-config.png" alt="VPC Design 1" width="40%">
+<img src="images/gns-r1-ospf.png" alt="VPC Design 1" width="60%"> <img src="images/gns-r2-ospf.png" alt="VPC Design 1" width="60%"> <img src="images/gns-r3-config.png" alt="VPC Design 1" width="60%">
 
 ## The Moment It Clicked
 The coolest part was when R1's routing table showed a route to 
@@ -80,7 +80,7 @@ Then it hit me... they're not even on the same subnet. R2 was
 on 10.1.1.0/30. R3 was on 10.0.1.0/30. Totally different networks. 
 Of course they couldn't talk.
 
-<img src="images/gns-trouble-r2.png" alt="VPC Design 1" width="50%">
+<img src="images/gns-trouble-r2.png" alt="VPC Design 1" width="70%">
 
 
 
@@ -91,7 +91,7 @@ earlier, R2's interface had the WRONG IP. So OSPF skipped the
 interface and never came back to it. I had to re-run the 
 network command after fixing the IP for OSPF to actually 
 activate on that interface.
-<img src="images/gns-trouble-r2-fix.png" alt="VPC Design 1" width="50%">
+<img src="images/gns-trouble-r2-fix.png" alt="VPC Design 1" width="70%">
 
 ## Lessons Learned the Hard Way
 - A single typo in an IP address can break a multi-router network
