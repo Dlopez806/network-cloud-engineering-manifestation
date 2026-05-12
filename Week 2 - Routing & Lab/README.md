@@ -1,5 +1,5 @@
 # Week 2 — Routing Protocols + GNS3 Lab
-### May 11–15, 2026
+### May 7–12, 2026
 
 ## What I Learned This Week
 This week I went from understanding routing in theory to actually 
