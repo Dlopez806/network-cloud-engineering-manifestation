@@ -26,8 +26,8 @@ AWS · Python · Terraform · GNS3 · Wireshark · Linux
 - AWS Advanced Networking Specialty
 - Or any valuable cert that Claude thinks I should get considering tech is changing every single day...
 
-## Project
-Coming Soon!
+## Projects
+Coming Soon!In the meantime feel free to view my weekly progress if you are interested!
 
 # Thank You
 If you took the time to read through this boring and nerdy documentation, thank you! If all else fails I hope my journey and findings throughout this can help someone somehow... Indulge! 
